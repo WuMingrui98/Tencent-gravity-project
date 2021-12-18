@@ -1,0 +1,3 @@
+C:/Users/61052/Desktop/player_win/cmake-build-debug/CMakeFiles/player_win.dir
+C:/Users/61052/Desktop/player_win/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/61052/Desktop/player_win/cmake-build-debug/CMakeFiles/rebuild_cache.dir

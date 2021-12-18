@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="player_win" targetName="player_win" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0908494b-08fc-4086-a9fb-7f1bab6f234f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="22MXPaGUNXmKT9OCknJrnJutxze" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\61052\Desktop\player_win" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="player_win" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="rtmp://110.40.193.165:1935/live/tencent2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="player_win" TARGET_NAME="player_win" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="player_win" RUN_TARGET_NAME="player_win">
+      <envs>
+        <env name="path" value="C:\Users\61052\Desktop\SDL2-2.0.18\x86_64-w64-mingw32\bin;C:\Users\61052\Desktop\ffmpeg-4.3.2-2021-02-27-full_build-shared\bin" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0908494b-08fc-4086-a9fb-7f1bab6f234f" name="Default Changelist" comment="" />
+      <created>1639648406820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639648406820</updated>
+      <workItem from="1639648407993" duration="126000" />
+      <workItem from="1639648648609" duration="571000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="391" y="113" width="1089" height="658" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639648685480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="113" width="1089" height="658" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1639648685480" />
+    <state x="737" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639648447019">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="737" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1639648447019" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1639649223966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639649223966" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1639649223966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1639649223966" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1639649223965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1639649223965" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1639649223966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1639649223966" />
+  </component>
+</project>

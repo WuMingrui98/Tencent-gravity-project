@@ -1,0 +1,3 @@
+"E:\install program\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\screenRecorder_win.dir/objects.a
+E:\program\mingw\mingw64\bin\ar.exe cr CMakeFiles\screenRecorder_win.dir/objects.a @CMakeFiles\screenRecorder_win.dir\objects1.rsp
+E:\program\mingw\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\screenRecorder_win.dir/objects.a -Wl,--no-whole-archive  -o screenRecorder_win.exe -Wl,--out-implib,libscreenRecorder_win.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\screenRecorder_win.dir\linklibs.rsp
