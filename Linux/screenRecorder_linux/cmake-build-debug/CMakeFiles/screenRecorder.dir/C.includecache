@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/screenRecorder1/captureScreen.h
+stdio.h
+-
+getopt.h
+-
+libavcodec/avcodec.h
+/root/screenRecorder1/libavcodec/avcodec.h
+libavformat/avformat.h
+/root/screenRecorder1/libavformat/avformat.h
+libswscale/swscale.h
+/root/screenRecorder1/libswscale/swscale.h
+libavdevice/avdevice.h
+/root/screenRecorder1/libavdevice/avdevice.h
+libavutil/imgutils.h
+-
+libavutil/time.h
+-
+SDL/SDL.h
+/root/screenRecorder1/SDL/SDL.h
+
+/root/screenRecorder1/main.c
+captureScreen.h
+/root/screenRecorder1/captureScreen.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/screenRecorder.dir/main.c.o CMakeFiles/screenRecorder.dir/captureScreen.c.o  -o screenRecorder  -lSDL -lavdevice -lavcodec -lavformat -lswscale -lavutil 
