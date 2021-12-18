@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">录屏推流</string>
+    <string name="cap_scr">屏幕录制</string>
+    <string name="rtmp_addr">rtmp://110.40.193.165:1935/live/tencent</string>
+
+</resources>

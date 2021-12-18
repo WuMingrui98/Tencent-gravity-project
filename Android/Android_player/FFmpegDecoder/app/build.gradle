@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.hejunlin.ffmpegdecoder"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            moduleName "yuiopffmpeg"
+            abiFilters 'armeabi','armeabi-v7a','x86'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+
+//    externalNativeBuild{
+//        ndkBuild{
+//            path "/Users/hzp/Downloads/AVBookCode/chapter-8/8.3.5/FFmpegDecoder/app/src/main/jni/Android.mk"
+//        }
+//    }
+
+    //生成apk文件
+//    android.applicationVariants.all {
+//        variant ->
+//            variant.outputs.all {
+//                // 此处指定生成的apk文件名
+//                outputFileName = "Player1.0.apk"
+//            }
+//    }
+
+
+
+    splits {
+        abi {
+            enable true
+            reset()
+//            include  'armeabi-v7a','armeabi','x86','arm64-v8a'
+            include  'armeabi'
+            universalApk true
+            }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets.main {
+        jni.srcDirs = []  // 不编译ndk,因为so已经编译好了
+        res.srcDirs = ['src/main/res']
+        jniLibs.srcDirs = ['src/main/jniLibs']
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    testCompile 'junit:junit:4.12'
+}
+
